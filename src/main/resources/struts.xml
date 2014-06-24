@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<package name="struts2" namespace="/" extends="struts-default">
+		<action name="createitem" class="com.stubhub.moco.action.CreateItemAction">
+			<result name="success">/index.jsp</result>
+		</action>
+	
+		<action name="loaddata" class="com.stubhub.moco.action.LoadDataAction">
+			<result name="main">/main.jsp</result>
+		</action>	
+			
+		<action name="deleteitem" class="com.stubhub.moco.action.DeleteItemAction">
+			<result name="success">/index.jsp</result>
+		</action>	
+			
+		<action name="itemdetail" class="com.stubhub.moco.action.ItemDetailAction">
+			<result name="success">/itemdetail.jsp</result>
+		</action>
+		
+		<action name="modifyitem" class="com.stubhub.moco.action.ModifyItemAction">
+			<result name="success">/index.jsp</result>
+		</action>
+	</package>
+	
+</struts>
