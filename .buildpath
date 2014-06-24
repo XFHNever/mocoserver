@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="src/main/resources"/>
+	<buildpathentry kind="src" path="src/main/java"/>
+	<buildpathentry kind="src" path="src/test/java"/>
+	<buildpathentry kind="src" path="src/test/resources"/>
+	<buildpathentry kind="src" path="src/main/webapp"/>
+	<buildpathentry kind="src" path="log"/>
+	<buildpathentry kind="con" path="org.eclipse.dltk.launching.INTERPRETER_CONTAINER"/>
+	<buildpathentry kind="con" path="com.ebay.tools.vjet2.core.SDK_CONTAINER/DEFAULT_SDK"/>
+	<buildpathentry external="true" kind="lib" path="C:/Users/fuxie/.m2/repository/org/apache/struts/struts2-core/2.3.16/struts2-core-2.3.16.jar"/>
+	<buildpathentry external="true" kind="lib" path="C:/Users/fuxie/.m2/repository/com/jgeppert/struts2/bootstrap/struts2-bootstrap-plugin/2.0.0/struts2-bootstrap-plugin-2.0.0.jar"/>
+</buildpath>

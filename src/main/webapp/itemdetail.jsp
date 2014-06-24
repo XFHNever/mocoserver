@@ -23,7 +23,7 @@
             	<s:textarea name="content" value="%{configItem.content}" label="Content" rows="8"></s:textarea>
             </div>
             <div class="form-group"> 
-				<s:textfield value="%{configItem.date}" label="Date"></s:textfield>
+				<s:textfield value="%{configItem.date}" label="Date" readonly="true"></s:textfield>
             </div>
 
 			<div class="form-group" style="text-align: center; "> 
